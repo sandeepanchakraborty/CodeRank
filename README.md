@@ -1,411 +1,346 @@
-# CodeRank
+<div align="center">
 
-[![Build Status](PLACEHOLDER_CI_BADGE)](PLACEHOLDER_CI_LINK)
-[![Coverage Status](PLACEHOLDER_COVERAGE_BADGE)](PLACEHOLDER_COVERAGE_LINK)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
-[![Node Version](https://img.shields.io/badge/Node-%3E=%2018.x-339933.svg)](https://nodejs.org/)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-ff69b4.svg)](https://www.conventionalcommits.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+# 🏆 CodeRank - Advanced Coding Practice Platform
 
-> CodeRank — *PLACEHOLDER: one‑line value proposition (e.g. “A modular scoring and ranking engine for evaluating code quality, test robustness, performance, and architectural consistency.”)*
+<p align="center">
+  <strong>A modern, multi-language coding practice platform built with Next.js, React, and Firebase</strong>
+</p>
 
----
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-demo">Demo</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-architecture">Architecture</a> •
+  <a href="#-contributing">Contributing</a>
+</p>
 
-## Table of Contents
-1. [Overview](#overview)  
-2. [Key Features](#key-features)  
-3. [Architecture](#architecture)  
-4. [Ranking / Scoring Engine](#ranking--scoring-engine)  
-5. [Tech Stack](#tech-stack)  
-6. [Project Layout](#project-layout)  
-7. [Getting Started](#getting-started)  
-8. [Installation](#installation)  
-9. [Configuration & Environment](#configuration--environment)  
-10. [CLI (If Provided)](#cli-if-provided)  
-11. [API (HTTP / Module)](#api-http--module)  
-12. [Data Models](#data-models)  
-13. [Job / Queue Processing](#job--queue-processing)  
-14. [Security & Hardening](#security--hardening)  
-15. [Performance Considerations](#performance-considerations)  
-16. [Caching Strategy](#caching-strategy)  
-17. [Logging & Observability](#logging--observability)  
-18. [Testing Strategy](#testing-strategy)  
-19. [Code Quality & Linting](#code-quality--linting)  
-20. [Versioning & Releases](#versioning--releases)  
-21. [Roadmap](#roadmap)  
-22. [Contributing](#contributing)  
-23. [FAQ](#faq)  
-24. [License](#license)  
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-13.0+-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Firebase-9.0+-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.0+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</p>
+
+</div>
 
 ---
 
-## Overview
-CodeRank is a *(placeholder: describe domain — e.g. “code evaluation and ranking platform” / “library for generating composite quality scores” / “service that aggregates metrics from repositories to derive a trust index”)*.
+## 🚀 Features
 
-It addresses the following problems:
-- PLACEHOLDER: (e.g. Lack of unified quality metrics across repos.)
-- PLACEHOLDER: (e.g. Need reproducible scoring criteria.)
-- PLACEHOLDER: (e.g. Provide actionable breakdowns to improve code quality.)
+### � **Multi-Language Code Editor**
 
-Core value:
-- Deterministic, explainable ranking
-- Extensible scoring pipelines
-- Pluggable metric providers (static analysis, coverage, complexity, commit cadence, dependency risk)
+- **JavaScript** - Native execution with full ES6+ support
+- **Python** - Smart conversion to JavaScript with pattern recognition
+- **Java** - Comprehensive conversion with collection mapping and syntax transformation
+- **Real-time Syntax Highlighting** - Powered by CodeMirror
+- **Auto-completion & Error Detection** - Enhanced coding experience
 
----
+### 🧩 **Comprehensive Problem Set**
 
-## Key Features
-| Category | Feature | Description |
-|----------|---------|-------------|
-| Metrics | Static Analysis Adapter | PLACEHOLDER: Integrates ESLint / custom AST passes |
-| Metrics | Test Coverage Ingestion | PLACEHOLDER: Istanbul / lcov parser |
-| Metrics | Complexity Analysis | PLACEHOLDER: Cyclomatic or maintainability index |
-| Ranking | Weighted Aggregation Engine | Configurable weighting YAML/JSON |
-| Ranking | Normalization Layer | Z-score / min-max / quantile transforms |
-| Output | Report Generation | Markdown / JSON / HTML bundle |
-| Output | Badge Service | On-demand shield style badges |
-| API | REST / GraphQL (if exists) | Endpoint list below |
-| Extensibility | Plugin System | Register new metric providers dynamically |
-| DevX | Type-safe Core | Full TypeScript types & generics |
-| DevX | Watch / Hot Reload | ts-node-dev / SWC / esbuild |
-| Ops | Structured Logging | pino / winston / OpenTelemetry |
-| Ops | Config Profiles | .env.* + hierarchical config |
-| Security | Sandbox (Optional) | Runner isolation (Docker / VM) |
-| Performance | Caching Layer | Redis / in-memory TTL |
-| CI/CD | Automated Checks | Lint + Test + Coverage Gates |
+| Problem             | Difficulty | Topics                | Approaches                  |
+| ------------------- | ---------- | --------------------- | --------------------------- |
+| Two Sum             | Easy       | Array, HashMap        | Brute Force, Hash Table     |
+| Valid Parentheses   | Easy       | Stack, String         | Stack-based validation      |
+| Jump Game           | Medium     | Array, Greedy         | Dynamic Programming, Greedy |
+| Reverse Linked List | Hard       | Linked List, Pointers | Iterative, Recursive        |
+| Search 2D Matrix    | Medium     | Array, Binary Search  | Row-wise, Binary Search     |
+
+### 🔥 **Advanced Features**
+
+- 🔐 **Secure Authentication** - Firebase Auth with email/password
+- ⚡ **Real-time Code Execution** - Instant feedback and testing
+- ⏱️ **Built-in Timer** - Track your coding session duration
+- 📊 **Progress Tracking** - Monitor solved problems and performance
+- 💾 **Persistent Storage** - Your progress is saved across sessions
+- 📱 **Responsive Design** - Works seamlessly on all devices
+- 🎨 **Dark Theme UI** - Easy on the eyes during long coding sessions
 
 ---
 
-## Architecture
-PLACEHOLDER: Provide a high-level diagram description.
+## 🎯 Demo
 
-Typical layers:
-1. Ingestion: gathers raw metrics (e.g. parsers, scanners)
-2. Normalization: scales metrics into comparable domains
-3. Weighting & Composite Aggregation: applies configuration-defined weights
-4. Persistence: stores runs (DB? Filesystem? Placeholder)
-5. Presentation: API / CLI / Reports
+### Live Application
 
-```
-+------------------+
-| Source Repos     |
-+---------+--------+
-          |
-          v
-+------------------+        +------------------+
-| Metric Providers | -----> | Normalization    |
-+---------+--------+        +---------+--------+
-          |                           |
-          v                           v
-     +----------+             +---------------+
-     | Scoring  | ----------> | Report & API  |
-     +----------+             +---------------+
-```
+🔗 **[Try CodeRank Live](http://localhost:3000)** _(Run locally following setup instructions)_
 
----
+### Screenshots
 
-## Ranking / Scoring Engine
-Explainable scoring pipeline:
+<details>
+<summary>🖼️ Click to view screenshots</summary>
 
-Step | Stage | Purpose | Config Reference
------|-------|---------|-----------------
-1 | Collect | Acquire raw metrics | providers/*.ts
-2 | Normalize | Map to [0,1] or standard distribution | normalization strategies
-3 | Weight | Apply category weights | config/weights.json
-4 | Aggregate | Compute composite index | scoring/aggregate.ts
-5 | Qualitative Layer | Map score to tier (Gold/Silver/etc.) | config/tiers.yml
-6 | Emit | Persist + render outputs | reporters/*
+#### Homepage
 
-Scoring formula (example – adjust to real logic):
-```
-composite = Σ ( normalized_metric_i * weight_i )
-```
-PLACEHOLDER: Add penalty handling, floor/ceiling rules, volatility dampening, decay factors.
+_Clean, modern interface with problem listings_
+
+#### Problem Solving Interface
+
+_Multi-language code editor with real-time execution_
+
+#### User Dashboard
+
+_Track your progress and performance metrics_
+
+</details>
 
 ---
 
-## Tech Stack
-Component | Choice | Notes
-----------|--------|------
-Language | TypeScript | Strong typing for safety
-Runtime | Node.js >= 18 | Native fetch / performance
-Build | PLACEHOLDER (tsc / swc / esbuild) | Fill in
-Package Manager | PLACEHOLDER (pnpm / npm / yarn) | Lockfile ensures reproducibility
-Linting | ESLint + Prettier | Code style & quality
-Testing | PLACEHOLDER (Jest / Vitest) | Coverage enforcement
-CI | PLACEHOLDER (GitHub Actions) | Pipeline defined in .github/workflows
-DB/Storage | PLACEHOLDER (e.g. SQLite / Postgres / none) | Metric run persistence
-Cache | PLACEHOLDER (Redis / memory) | Speed repeated computations
-Logging | PLACEHOLDER (pino / winston) | Structured logs
-Config | dotenv + layered config | env → default → CLI flags
-Containerization | PLACEHOLDER (Dockerfile) | Reproducible environment
-Distribution | PLACEHOLDER (npm publish / internal) | If published
-
----
-
-## Project Layout
-```
-CodeRank/
-├─ src/
-│  ├─ index.ts                  # Entry point (PLACEHOLDER)
-│  ├─ core/                     # Core scoring logic
-│  ├─ metrics/                  # Individual metric providers
-│  ├─ normalization/            # Scaling strategies
-│  ├─ scoring/                  # Weighting & aggregation
-│  ├─ reporters/                # Output formats
-│  ├─ api/                      # HTTP layer (if present)
-│  ├─ cli/                      # CLI commands
-│  └─ utils/                    # Shared helpers
-├─ tests/ or __tests__/         # Test suites
-├─ config/
-│  ├─ weights.json              # Metric weights
-│  ├─ tiers.yml                 # Score → label mapping
-│  └─ metrics.yml               # Provider enable/disable flags
-├─ scripts/                     # Dev / build scripts
-├─ .github/workflows/           # CI definitions
-├─ package.json
-├─ tsconfig.json
-├─ README.md
-├─ LICENSE (MIT)
-└─ CHANGELOG.md
-```
-(Adjust after verifying actual tree.)
-
----
-
-## Getting Started
+## ⚡ Quick Start
 
 ### Prerequisites
-- Node.js >= 18
-- Git
-- (Optional) Docker
 
-### Quick Start
+- **Node.js** (v18.0 or higher)
+- **npm** or **yarn** package manager
+- **Firebase Project** (for backend services)
+
+### Installation
+
+1. **Clone the repository**
+
 ```bash
 git clone https://github.com/sandeepanchakraborty/CodeRank.git
 cd CodeRank
-pnpm install   # or npm install / yarn install
-pnpm build     # compile TypeScript
-pnpm start     # run default mode (PLACEHOLDER)
 ```
 
----
+2. **Install dependencies**
 
-## Installation
-As a library (if published):
 ```bash
-pnpm add coderank
+npm install
+# or
+yarn install
 ```
 
-Local development:
+3. **Environment Setup**
+   Create a `.env.local` file in the root directory:
+
+```env
+# Firebase Configuration
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+```
+
+4. **Firebase Setup**
+
+- Create a [Firebase project](https://console.firebase.google.com/)
+- Enable **Authentication** (Email/Password provider)
+- Enable **Firestore Database**
+- Add your Firebase config to `.env.local`
+
+5. **Seed the Database** (Optional)
+
 ```bash
-pnpm install
-pnpm dev
+node scripts/seedProblems.js
 ```
 
-Global CLI (optional):
+6. **Start Development Server**
+
 ```bash
-pnpm build
-pnpm link
-coderank --help
+npm run dev
+# or
+yarn dev
+```
+
+7. **Open Application**
+   Navigate to [http://localhost:3000](http://localhost:3000) in your browser
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- **[Next.js 13+](https://nextjs.org/)** - React framework with SSR/SSG
+- **[React 18+](https://reactjs.org/)** - UI library with hooks and context
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[CodeMirror](https://codemirror.net/)** - Advanced code editor
+- **[Recoil](https://recoiljs.org/)** - State management library
+
+### Backend & Services
+
+- **[Firebase Auth](https://firebase.google.com/products/auth)** - User authentication
+- **[Firestore](https://firebase.google.com/products/firestore)** - NoSQL database
+- **[Firebase Hosting](https://firebase.google.com/products/hosting)** - Web hosting
+
+### Development Tools
+
+- **[ESLint](https://eslint.org/)** - Code linting
+- **[Prettier](https://prettier.io/)** - Code formatting
+- **[TypeScript](https://www.typescriptlang.org/)** - Static type checking
+
+---
+
+## 🏗️ Architecture
+
+### Project Structure
+
+```
+CodeRank/
+├── 📁 public/                  # Static assets
+├── 📁 src/
+│   ├── 📁 atoms/               # Recoil state atoms
+│   ├── 📁 components/          # React components
+│   │   ├── 📁 Workspace/       # Code editor workspace
+│   │   ├── 📁 Modals/          # Authentication modals
+│   │   └── 📁 Navbar/          # Navigation components
+│   ├── 📁 firebase/            # Firebase configuration
+│   ├── 📁 hooks/               # Custom React hooks
+│   ├── 📁 pages/               # Next.js pages
+│   ├── 📁 utils/               # Utility functions
+│   │   ├── 📁 problems/        # Problem definitions
+│   │   └── 📁 types/           # TypeScript types
+│   └── 📁 styles/              # Global styles
+├── 📁 scripts/                 # Database seeding scripts
+└── 📋 Configuration files
+```
+
+### Key Components
+
+#### 🎨 **Multi-Language Code Conversion System**
+
+```typescript
+// Smart language detection and conversion
+const convertJavaToJS = (code: string): string => {
+  // Sophisticated Java → JavaScript conversion
+  // Handles collections, data types, and syntax
+};
+
+const convertPythonToJS = (code: string): string => {
+  // Python → JavaScript conversion with pattern recognition
+  // Supports loops, conditionals, and Python-specific syntax
+};
+```
+
+#### 🔄 **Real-time Code Execution Engine**
+
+```typescript
+// Execute user code against test cases
+const executeCode = async (code: string, language: string) => {
+  const convertedCode = convertToJavaScript(code, language);
+  const results = await runTestCases(convertedCode);
+  return results;
+};
 ```
 
 ---
 
-## Configuration & Environment
-Environment variables (PLACEHOLDER):
+## 📚 Usage Guide
 
-Variable | Purpose | Default | Required
----------|---------|---------|---------
-LOG_LEVEL | Logging verbosity | info | No
-PORT | API port | 3000 | If API
-DB_URL | Database connection | (none) | If persistence
-CACHE_URL | Redis endpoint | (none) | Optional
-WEIGHTS_FILE | Custom weighting config | config/weights.json | No
+### For Users
 
-Create `.env.local`:
-```
-PORT=3000
-LOG_LEVEL=debug
-```
+1. **Sign Up/Login** - Create account or sign in
+2. **Choose Problem** - Select from available coding challenges
+3. **Select Language** - Choose JavaScript, Python, or Java
+4. **Write Solution** - Use the built-in code editor
+5. **Test & Submit** - Run against test cases and submit
+6. **Track Progress** - Monitor your solved problems
 
----
+### For Developers
 
-## CLI (If Provided)
-```bash
-coderank ingest --repo ./examples/project
-coderank score --output report.md
-coderank api --port 3000
-```
-Command | Description | Key Flags
---------|-------------|----------
-ingest | Collect raw metrics | --repo, --providers
-score | Produce composite score | --format, --weights
-api | Start HTTP server | --port
-report | Generate full report | --out, --badge
-watch | Watch repo & rescore | --interval
+1. **Add New Problems** - Edit `src/utils/problems/`
+2. **Extend Language Support** - Modify `src/utils/languages.ts`
+3. **Customize UI** - Update components in `src/components/`
+4. **Database Changes** - Update Firestore schema and seed scripts
 
 ---
 
-## API (HTTP / Module)
+## 🚦 Scripts
 
-### REST Endpoints (PLACEHOLDER)
-Method | Path | Description | Auth | Notes
-------|------|-------------|------|------
-GET | /health | Liveness check | None | returns {status}
-POST | /ingest | Trigger ingestion | Token? | Body: {repoPath}
-POST | /score | Compute score | Token? | Body: {runId}
-GET | /scores/:id | Retrieve score detail | Token? | includes breakdown
-GET | /badge | Dynamic badge | Public | query params: metric, style
-
-Response example (placeholder):
-```json
-{
-  "composite": 0.842,
-  "tier": "Gold",
-  "metrics": {
-    "coverage": { "raw": 87.4, "normalized": 0.874, "weight": 0.25 },
-    "complexity": { "raw": 3.2, "normalized": 0.81, "weight": 0.15 }
-  },
-  "explain": [
-    "Coverage above threshold → positive impact",
-    "Complexity moderate"
-  ]
-}
-```
+| Command                        | Description                 |
+| ------------------------------ | --------------------------- |
+| `npm run dev`                  | Start development server    |
+| `npm run build`                | Build for production        |
+| `npm start`                    | Start production server     |
+| `npm run lint`                 | Run ESLint                  |
+| `node scripts/seedProblems.js` | Seed database with problems |
 
 ---
 
-## Data Models
-(Placeholder – adapt to actual interfaces.)
+## 🌟 Key Features Deep Dive
 
-```ts
-export interface MetricResult {
-  key: string;
-  raw: number;
-  normalized: number;
-  meta?: Record<string, unknown>;
-}
+### Multi-Language Support Implementation
 
-export interface ScoreBreakdown {
-  composite: number;
-  tier: string;
-  metrics: Record<string, MetricResult>;
-  timestamp: string;
-}
-```
+CodeRank features an advanced language conversion system that allows users to write solutions in multiple programming languages while maintaining consistent execution:
 
----
+- **Pattern Recognition**: Intelligent detection of common algorithmic patterns
+- **Syntax Transformation**: Accurate conversion of language-specific syntax
+- **Data Structure Mapping**: Automatic mapping between language-specific collections
+- **Error Handling**: Comprehensive error detection and user-friendly messages
 
-## Job / Queue Processing
-If asynchronous:
-- Queue: PLACEHOLDER (BullMQ / custom)
-- Job Types: INGEST_REPO, COMPUTE_SCORE, GENERATE_REPORT
-- Retry Policy: exponential backoff (max 5)
-- Idempotency: hashed repo@commit key
+### Problem Management System
+
+Each problem includes:
+
+- **Multiple Test Cases**: Comprehensive testing scenarios
+- **Difficulty Ratings**: Easy, Medium, Hard classifications
+- **Topic Tags**: Algorithm categories and data structures
+- **Solution Templates**: Language-specific starter code
+- **Detailed Explanations**: Problem descriptions with examples
 
 ---
 
-## Security & Hardening
-Area | Measure | Status
------|---------|-------
-Dependencies | Audit via `pnpm audit` | PLACEHOLDER
-Sandboxing | Run analyzers in isolated process | PLACEHOLDER
-Secrets | .env + not committed | Enforced via gitignore
-Input Validation | zod / joi schemas | PLACEHOLDER
-Rate Limiting | express-rate-limit / custom | PLACEHOLDER
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### Ways to Contribute
+
+- 🐛 **Report Bugs** - Submit issues with detailed descriptions
+- 💡 **Suggest Features** - Propose new functionality
+- 🔧 **Code Contributions** - Submit pull requests
+- 📚 **Documentation** - Improve docs and guides
+- 🧪 **Testing** - Help test new features
+
+### Development Setup
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Make changes and test thoroughly
+4. Commit changes (`git commit -m 'Add AmazingFeature'`)
+5. Push to branch (`git push origin feature/AmazingFeature`)
+6. Open Pull Request
+
+### Contribution Guidelines
+
+- Follow existing code style and conventions
+- Add tests for new functionality
+- Update documentation as needed
+- Ensure all tests pass before submitting PR
 
 ---
 
-## Performance Considerations
-- Parallel metric providers
-- Caching normalized results by repo hash
-- Streaming report generation (optional)
-- Debounce frequent rescoring
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Caching Strategy
-Layer | Purpose | TTL
-------|--------|----
-Raw Metrics | Avoid re-parsing same commit | 1 day
-Score Results | Quickly serve badges | 1 hour
-Badge SVG | CDN edge caching | 10 min
+## 🙏 Acknowledgments
+
+- **[LeetCode](https://leetcode.com/)** - Inspiration for problem formats
+- **[Firebase](https://firebase.google.com/)** - Backend infrastructure
+- **[Vercel](https://vercel.com/)** - Deployment platform
+- **[CodeMirror](https://codemirror.net/)** - Code editor component
 
 ---
 
-## Logging & Observability
-Log levels: trace, debug, info, warn, error
-Structure:
-```json
-{ "time": "...", "level": "info", "msg": "scoring_complete", "score": 0.842 }
-```
-Metrics export (optional):
-- Prometheus at /metrics
-- OpenTelemetry traces (service name: coderank-core)
+## 📞 Support & Contact
+
+- **📧 Email**: [your-email@example.com](mailto:your-email@example.com)
+- **🐛 Issues**: [GitHub Issues](https://github.com/sandeepanchakraborty/CodeRank/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/sandeepanchakraborty/CodeRank/discussions)
 
 ---
 
-## Testing Strategy
-Test Type | Tools | Notes
-----------|-------|------
-Unit | Jest / Vitest | 90% target
-Integration | Spawns local run | Mocks FS / Git
-E2E | Docker harness | Full scoring pipeline
-Performance | autocannon / custom | Score latency < N ms
-Static | ESLint + TypeScript | Pre-commit hook
+<div align="center">
 
-Sample scripts (placeholder `package.json`):
-```json
-{
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "dev": "tsx watch src/index.ts",
-    "lint": "eslint . --ext .ts",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "coverage": "vitest run --coverage"
-  }
-}
-```
+### 🌟 Star this repository if you found it helpful!
 
----
+**Made with ❤️ by [Sandeepan Chakraborty](https://github.com/sandeepanchakraborty)**
 
-## Code Quality & Linting
-Pre-commit (husky / simple-git-hooks):
-1. Type check
-2. Lint
-3. Unit tests (fast path)
-4. Format (Prettier)
-
----
-
-## Versioning & Releases
-- Semantic Versioning (MAJOR.MINOR.PATCH)
-- Automated changelog via conventional commits: `feat:`, `fix:`, `perf:`, `refactor:`
-- Release pipeline:
-  1. Merge PR with squash (preserve conventional prefix)
-  2. Release script bumps version & generates CHANGELOG
-  3. Publish / tag
-
----
-
-## Roadmap
-Status | Feature | Target
--------|---------|-------
-[ ] | Pluggable Provider API | v0.2
-[ ] | Badge microservice | v0.3
-[ ] | Web dashboard | v0.4
-[ ] | Git integration (per-commit analysis) | v0.5
-[ ] | ML-assisted weighting suggestions | v0.7
-[ ] | Public hosted mode | v1.0
-
----
-
-## Contributing
-1. Fork & clone
-2. Create feature branch: `git checkout -b feat/new-metric`
-3. Commit using conventional format
-4. Ensure: build + lint + test pass
-5. Open PR with clear description & before/after comparison
+</div>
